@@ -35,4 +35,5 @@ Add New Expense to list
 - Two way binding of input fields
 - Lifting State Up to parent component
 - Used Derived value based on related State fields
-- Use of list Keys for unique id   
+- Use of list Keys for unique id
+- Dynamic styling
