@@ -33,3 +33,6 @@ Add New Expense to list
 - Managed multiple states with one object state or individual state fields
 - Use of state update function parameter within Set State Function to ensure most current state
 - Two way binding of input fields
+- Lifting State Up to parent component
+- Used Derived value based on related State fields
+- Use of list Keys for unique id   
