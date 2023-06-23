@@ -21,7 +21,15 @@ Add New Expense to list
 
   - Click &lt;Add New Expense&gt; Button
   - Enter: Title, Amount, Date
-  - Click &lt;Add Expense&gt;
+  - Click &lt;Add Expense&gt; Button
   
 
 ## React Features and Methods Used
+
+- Passing props data by object or multiple values to components
+- Use of props.children
+- Basic event handling
+- Implemented useState hook for updating data
+- Managed multiple states with one object state or individual state fields
+- Use of state update function parameter within Set State Function to ensure most current state
+- Two way binding of input fields
