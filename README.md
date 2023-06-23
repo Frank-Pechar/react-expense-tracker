@@ -36,4 +36,6 @@ Add New Expense to list
 - Lifting State Up to parent component
 - Used Derived value based on related State fields
 - Use of list Keys for unique id
+- Styling wrapper component
+
 - Dynamic styling
