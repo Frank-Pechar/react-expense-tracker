@@ -2,31 +2,32 @@ import React, { useState } from 'react';
 import './ExpenseForm.css';
 
 const ExpenseForm = (props) => {
+  // initialize input fields
   const [enteredTitle, setEnteredTitle] = useState('');
   const [enteredAmount, setEnteredAmount] = useState('');
   const [enteredDate, setEnteredDate] = useState('');
 
+  // save input keystrokes
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
-    console.log(event.target.value);
   };
 
   const amountChangeHandler = (event) => {
     setEnteredAmount(event.target.value);
-    console.log(event.target.value);
   };
 
   const dateChangeHandler = (event) => {
     setEnteredDate(event.target.value);
-    console.log(event.target.value);
   };
 
+  // process submitted input
   const submitHandler = (event) => {
     event.preventDefault();
+    const fmtDate = enteredDate.replaceAll('-', '/');
     const expenseData = {
       title: enteredTitle,
       amount: +enteredAmount,
-      date: new Date(enteredDate),
+      date: new Date(fmtDate),
     };
     props.onSaveExpenseData(expenseData);
     setEnteredTitle('');
@@ -60,8 +61,8 @@ const ExpenseForm = (props) => {
           <input
             type="date"
             value={enteredDate}
-            min="2019-01-01"
-            max="2022-12-31"
+            min="2020-01-01"
+            max="2023-12-31"
             onChange={dateChangeHandler}
           />
         </div>

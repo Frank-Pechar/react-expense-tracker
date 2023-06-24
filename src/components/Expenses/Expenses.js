@@ -6,16 +6,18 @@ import ExpensesFilter from './ExpensesFilter';
 import ExpensesChart from './ExpensesChart';
 
 const Expenses = (props) => {
-  const [filterYear, setFilterYear] = useState('2022');
+  const [filterYear, setFilterYear] = useState('2023');
 
   const saveFilterDataHandler = (selectedYear) => {
     setFilterYear(selectedYear);
-    console.log('Saved Filter Data ', filterYear);
   };
 
+  // filtering expenses array by selected year
   const filteredExpenses = props.items.filter(
     (expense) => expense.date.getFullYear().toString() === filterYear
   );
+
+  // render entire expense area to display
 
   return (
     <Card className="expenses">

@@ -2,6 +2,8 @@ import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
 
+// render expense item in list view
+
 const ExpenseItem = (props) => {
   return (
     <li>
