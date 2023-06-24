@@ -1,14 +1,15 @@
 import React from 'react';
-
-import ChartBar from './ChartBar';
 import './Chart.css';
+import ChartBar from './ChartBar';
 
 const Chart = (props) => {
-  const dataPointValues = props.dataPoints.map(dataPoint => dataPoint.value);
+  // find greatest monthly expenses value
+  const dataPointValues = props.dataPoints.map((dataPoint) => dataPoint.value);
   const totalMaximum = Math.max(...dataPointValues);
 
   return (
-    <div className='chart'>
+    // render monthly expense chart for year selected
+    <div className="chart">
       {props.dataPoints.map((dataPoint) => (
         <ChartBar
           key={dataPoint.label}
