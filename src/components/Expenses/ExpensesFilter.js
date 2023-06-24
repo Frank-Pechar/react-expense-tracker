@@ -1,5 +1,4 @@
-import { render } from '@testing-library/react';
-import Expenses from './Expenses';
+import React from 'react';
 import './ExpensesFilter.css';
 
 // filter by year processing
