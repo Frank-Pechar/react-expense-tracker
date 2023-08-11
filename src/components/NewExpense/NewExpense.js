@@ -23,6 +23,7 @@ const NewExpense = (props) => {
   // render either the add expense button or add expense form
   return (
     <div className="new-expense">
+      Expense Tracker
       {!isEditing && (
         <button onClick={startEditingHandler}>Add New Expense</button>
       )}

@@ -1,23 +1,29 @@
 .new-expense {
   background-color: #a892ee;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 2rem auto;
+  padding: 2rem 0 0;
   width: 50rem;
   max-width: 95%;
   border-radius: 12px;
-  text-align: center;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  color: #40005d;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .new-expense button {
-  font: inherit;
+  font-size: 1rem;
   cursor: pointer;
   padding: 1rem 2rem;
+  margin: 2rem 2rem 2rem;
   border: 1px solid #40005d;
   background-color: #40005d;
   color: white;
   border-radius: 12px;
-  margin-right: 1rem;
 }
 
 .new-expense button:hover,
