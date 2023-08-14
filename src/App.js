@@ -19,7 +19,7 @@ const App = () => {
     },
     {
       id: 'e3',
-      title: 'Three Udemy Courses - Discount Prices - Annual',
+      title: 'Three Udemy Courses - 90% Off Discount - Annual',
       amount: 75.0,
       date: new Date(2020, 8, 1),
     },
@@ -31,7 +31,7 @@ const App = () => {
     },
     {
       id: 'e5',
-      title: 'Six Udemy Courses - Discount Prices - Annual',
+      title: 'Six Udemy Courses - 90% Off Discount - Annual',
       amount: 145.0,
       date: new Date(2021, 9, 1),
     },
@@ -55,7 +55,7 @@ const App = () => {
     },
     {
       id: 'e9',
-      title: 'Five Udemy Courses - Discount Prices - Annual',
+      title: 'Five Udemy Courses - 90% Off Discount - Annual',
       amount: 125.0,
       date: new Date(2022, 6, 1),
     },
@@ -67,7 +67,7 @@ const App = () => {
     },
     {
       id: 'e11',
-      title: 'Two Udemy Courses - Discount Prices - Annual',
+      title: 'Two Udemy Courses - 90% Off Discount - Annual',
       amount: 45.0,
       date: new Date(2023, 3, 15),
     },
