@@ -37,5 +37,4 @@ Add New Expense to list
 - Used Derived value based on related State fields
 - Use of list Keys for unique id
 - Styling wrapper component
-
 - Dynamic styling
